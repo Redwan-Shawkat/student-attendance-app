@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital@1&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  font-family: "Afacad";
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+#name{
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  color: black;
+}
+
+.submitbtn{
+  color: white;
+  background-color: black;
+  box-shadow: 2px 2px 2px white;
+}
+
+
+
+.buttons{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.students{
+ 
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+}
+
+li{
+  list-style: none;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+  color: red;
+  border: 2px solid white;
+  width: 500px;
+  margin: 0 auto;
+  
+}
+
+.btn{
+  margin-left: 20px;
+  position: relative;
+  top: -3px;
+  background-color: black;
+  border: 2px solid white;
+  color: white
 }
